@@ -99,13 +99,13 @@ const productosPulpas = ["Pulpa Bola - $199.80",
         "Pulpa Negra Preparada - $206.80",
         "Pulpa Negra x Pieza - $186.80",
         "Pulpa Paleta para Plancha - $161.80",
-        "Pulpa Paleta Picada kg - 161.80",
+        "Pulpa Paleta Picada kg - $161.80",
         "Pulpa Paleta por caja - $142.80", 
         "Pulpa Paleta por Pieza - $143.80",
-        "Pulpa Paleta Preparada 161.80",
-        "Pulpa Paleta x Pz Preparada - 143.80",
-        "Pulpa Palomilla - 204.80",
-        "Pulpa Palomilla x Pieza - 194.80"];
+        "Pulpa Paleta Preparada $161.80",
+        "Pulpa Paleta x Pz Preparada - $143.80",
+        "Pulpa Palomilla - $204.80",
+        "Pulpa Palomilla x Pieza - $194.80"];
 
 toggleSubMenu(tituloRes, subMenuPulpas, listaProductosPulpas);
 agregarProductosALista(productosPulpas, "productosPulpas");
@@ -113,8 +113,8 @@ agregarProductosALista(productosPulpas, "productosPulpas");
 // Chamorro
 const subMenuChamorro = document.getElementById("Chamorro");
 const listaProductosChamorro = document.getElementById("productosChamorro");
-const productosChamorro = ["Chamorro de res - 125.80",
-    "Chamorro de res x Pz - 115.80"];
+const productosChamorro = ["Chamorro de res - $125.80",
+    "Chamorro de res x Pz - $115.80"];
 
 toggleSubMenu(tituloRes, subMenuChamorro, listaProductosChamorro);
 agregarProductosALista(productosChamorro, "productosChamorro");
@@ -122,7 +122,7 @@ agregarProductosALista(productosChamorro, "productosChamorro");
 // Espinazo
 const subMenuEspinazo = document.getElementById("Espinazo");
 const listaProductosEspinazo = document.getElementById("productosEspinazo");
-const productosEspinazo = ["Espinazo de Res - 59.80"];
+const productosEspinazo = ["Espinazo de Res - $59.80"];
 
 toggleSubMenu(tituloRes, subMenuEspinazo, listaProductosEspinazo);
 agregarProductosALista(productosEspinazo, "productosEspinazo");
@@ -130,7 +130,7 @@ agregarProductosALista(productosEspinazo, "productosEspinazo");
 // Milanesas
 const subMenuMilanesas = document.getElementById("Milanesas");
 const listaProductosMilanesas = document.getElementById("productosMilanesas");
-const productosMilanesas = ["Milanesa de Res - 184.80"];
+const productosMilanesas = ["Milanesa de Res - $184.80"];
 
 toggleSubMenu(tituloRes, subMenuMilanesas, listaProductosMilanesas);
 agregarProductosALista(productosMilanesas, "productosMilanesas");
@@ -138,8 +138,8 @@ agregarProductosALista(productosMilanesas, "productosMilanesas");
 // Pata
 const subMenuPata = document.getElementById("Pata");
 const listaProductosPata = document.getElementById("productosPata");
-const productosPata = ["Pata de Res - 79.80",
- "Pata S/Pezuña - 89.80"];
+const productosPata = ["Pata de Res - $79.80",
+ "Pata S/Pezuña - $89.80"];
 
 toggleSubMenu(tituloRes, subMenuPata, listaProductosPata);
 agregarProductosALista(productosPata, "productosPata");
@@ -147,9 +147,9 @@ agregarProductosALista(productosPata, "productosPata");
 // Pecho
 const subMenuPecho = document.getElementById("Pecho");
 const listaProductosPecho = document.getElementById("productosPecho");
-const productosPecho = ["Pecho de Res - 184.80",
- "Pecho de Res Bisteceado 184.80",
-  "Pecho de Res x Pieza 150.80"];
+const productosPecho = ["Pecho de Res - $184.80",
+ "Pecho de Res Bisteceado - $184.80",
+  "Pecho de Res x Pieza - $150.80"];
 
 toggleSubMenu(tituloRes, subMenuPecho, listaProductosPecho);
 agregarProductosALista(productosPecho, "productosPecho");
@@ -157,9 +157,9 @@ agregarProductosALista(productosPecho, "productosPecho");
 // Suadero
 const subMenuSuadero = document.getElementById("Suadero");
 const listaProductosSuadero = document.getElementById("productosSuadero");
-const productosSuadero = ["Suadero Nacional - 134.80",
+const productosSuadero = ["Suadero Nacional - $134.80",
  "Suadero Nacional Limpio - $179.80",
-  "Suadero x Pieza $129.80"];
+  "Suadero x Pieza - $129.80"];
 
 toggleSubMenu(tituloRes, subMenuSuadero, listaProductosSuadero);
 agregarProductosALista(productosSuadero, "productosSuadero");
@@ -167,9 +167,9 @@ agregarProductosALista(productosSuadero, "productosSuadero");
 // Tripas
 const subMenuTripas = document.getElementById("Tripas");
 const listaProductosTripas = document.getElementById("productosTripas");
-const productosTripas = ["Tripas de Res - 79.80",
+const productosTripas = ["Tripas de Res - $79.80",
     "Tripa de Res Precocida - $148.80",
-    "Tripa de Res Trenzada $89.80",
+    "Tripa de Res Trenzada - $89.80",
     "Tripa de Res x Caja - $69.80",
     "Tripa para embutir - $450.00"];
 
@@ -207,7 +207,7 @@ const subMenuHueso = document.getElementById("Hueso");
 const listaProductosHueso = document.getElementById("productosHueso");
 const productosHueso = ["Hueso Blanco - $37.80",
  "Hueso con Tuetano - $80.80",
-  "Hueso Perico - 49.80"];
+  "Hueso Perico - $49.80"];
 
 toggleSubMenu(tituloRes, subMenuHueso, listaProductosHueso);
 agregarProductosALista(productosHueso, "productosHueso");
@@ -215,7 +215,7 @@ agregarProductosALista(productosHueso, "productosHueso");
 // Arrachera
 const subMenuArrachera = document.getElementById("Arrachera");
 const listaProductosArrachera = document.getElementById("productosArrachera");
-const productosArrachera = ["Arrachera - 239.80",
+const productosArrachera = ["Arrachera - $239.80",
     "Arrachera FlapMeat - $239.80",
     "Arrachera Marinada - $262.80",
     "Arrachera por Pieza - $209.80"];
@@ -229,7 +229,7 @@ const listaProductosMenudo = document.getElementById("productosMenudo");
 const productosMenudo = ["Menudo - $109.80",
     "Menudo Americano x Caja - $105.80",
     "Menudo Mexicano x Caja - $99.80",
-    "Menudo Picado - 114.80"];
+    "Menudo Picado - $114.80"];
 
 toggleSubMenu(tituloRes, subMenuMenudo, listaProductosMenudo);
 agregarProductosALista(productosMenudo, "productosMenudo");
@@ -328,7 +328,7 @@ agregarProductosALista(productosEspinazoCerdo, "productosEspinazoCerdo");
 const subMenuManitasCerdo = document.getElementById("ManitasCerdo");
 const listaProductosManitasCerdo = document.getElementById("productosManitasCerdo");
 const productosManitasCerdo = ["Manita de Puerco - $59.80",
- "Manitas de Puerco S/Pezuña - 69.80"];
+ "Manitas de Puerco S/Pezuña - $69.80"];
 
 toggleSubMenu(tituloCerdo, subMenuManitasCerdo, listaProductosManitasCerdo);
 agregarProductosALista(productosManitasCerdo, "productosManitasCerdo");
@@ -365,7 +365,7 @@ const productosPiernaCerdo = ["Pierna Ahumada de Puerco C/H PZ - $120.00",
 "Pierna de Puerco C/Hueso y Cuero - $62.80",
 "Pierna de Puerco Molida - $62.80",
 "Pierna de Puerco Pza S/Hueso - $79.80",
-"Pierna de Puerco S/Hueso - 84.80" ];
+"Pierna de Puerco S/Hueso - $84.80" ];
 
 toggleSubMenu(tituloCerdo, subMenuPiernaCerdo, listaProductosPiernaCerdo);
 agregarProductosALista(productosPiernaCerdo, "productosPiernaCerdo");
@@ -373,7 +373,7 @@ agregarProductosALista(productosPiernaCerdo, "productosPiernaCerdo");
 // Punta de Cerdo
 const subMenuPuntaCerdo = document.getElementById("PuntaCerdo");
 const listaProductosPuntaCerdo = document.getElementById("productosPuntaCerdo");
-const productosPuntaCerdo = ["Punta de Puerco - 74.80",
+const productosPuntaCerdo = ["Punta de Puerco - $74.80",
 "Punta de Puerco Adobada - $89.80",
 "Punta de Puerco Picada - $79.80",
 "Punta de Puerco Preparada - $84.80",
@@ -387,11 +387,11 @@ const subMenuTocinoCerdo = document.getElementById("TocinoCerdo");
 const listaProductosTocinoCerdo = document.getElementById("productosTocinoCerdo");
 const productosTocinoCerdo = ["Tocineta Rosarito - $185.00", 
 "Tocineta S/Cuero de Puerco  - $100.00",
-"Tocino Ahumado Premium - 158.80",
+"Tocino Ahumado Premium - $158.80",
 "Tocino Farmer john - $309.80",
 "Tocino Recorte - $132.80",
 "Tocino Recorte Molido - $142.80",
-"Tocino Rosarito - 285.80"];
+"Tocino Rosarito - $285.80"];
 
 toggleSubMenu(tituloCerdo, subMenuTocinoCerdo, listaProductosTocinoCerdo);
 agregarProductosALista(productosTocinoCerdo, "productosTocinoCerdo");
@@ -423,10 +423,10 @@ agregarProductosALista(productosChicharronPrensadoCerdo, "productosChicharronPre
 // Cuero de Cerdo
 const subMenuCueroCerdo = document.getElementById("CueroCerdo");
 const listaProductosCueroCerdo = document.getElementById("productosCueroCerdo");
-const productosCueroCerdo = ["Cuero de puerco con grasa - 42.80",
+const productosCueroCerdo = ["Cuero de puerco con grasa - $42.80",
 "Cuero de puerco con grasa cortado - $52.80",
 "Cuero de Puerco sin grasa - $46.80",
-"Cuero de Puerco sin grasa x Caja - 41.80"];
+"Cuero de Puerco sin grasa x Caja - $41.80"];
 
 toggleSubMenu(tituloCerdo, subMenuCueroCerdo, listaProductosCueroCerdo);
 agregarProductosALista(productosCueroCerdo, "productosCueroCerdo");
@@ -434,16 +434,16 @@ agregarProductosALista(productosCueroCerdo, "productosCueroCerdo");
 // Otros de Cerdo
 const subMenuOtrosCerdo = document.getElementById("OtrosCerdo");
 const listaProductosOtrosCerdo = document.getElementById("productosOtrosCerdo");
-const productosOtrosCerdo = ["Chorizo - 109.80",
-"Espaldilla de Puerco con Grasa - 72.80",
-"Grasa de Puerco - 60.00",
-"Lengua de Puerco kg - 117.80",
-"Papada de Puerco - 65.80",
+const productosOtrosCerdo = ["Chorizo - $109.80",
+"Espaldilla de Puerco con Grasa - $72.80",
+"Grasa de Puerco - $60.00",
+"Lengua de Puerco kg - $117.80",
+"Papada de Puerco - $65.80",
 "Pecho de Puerco $72.80",
 "Queso de Puerco Alpino - $146.80",
-"Queso de Puerco La Montañesa Kg - 120.80",
-"Rancherito de Puerco - 94.80",
-"Sancocho - 135.80"];
+"Queso de Puerco La Montañesa Kg - $120.80",
+"Rancherito de Puerco - $94.80",
+"Sancocho - $135.80"];
 
 toggleSubMenu(tituloCerdo, subMenuOtrosCerdo, listaProductosOtrosCerdo);
 agregarProductosALista(productosOtrosCerdo, "productosOtrosCerdo");
@@ -451,7 +451,7 @@ agregarProductosALista(productosOtrosCerdo, "productosOtrosCerdo");
 // Lomo de Cerdo
 const subMenuLomoCerdo = document.getElementById("LomoCerdo");
 const listaProductosLomoCerdo = document.getElementById("productosLomoCerdo");
-const productosLomoCerdo = ["Lomo de Puerco S/H - 129.80", "Lomo de Puerco S/H - 114.80"];
+const productosLomoCerdo = ["Lomo de Puerco S/H - $129.80", "Lomo de Puerco S/H - $114.80"];
 
 toggleSubMenu(tituloCerdo, subMenuLomoCerdo, listaProductosLomoCerdo);
 agregarProductosALista(productosLomoCerdo, "productosLomoCerdo");
@@ -462,8 +462,8 @@ const tituloPollo = document.getElementById("tituloPollo");
 const subMenuPollo = document.getElementById("Pollo");
 const listaProductosPollo = document.getElementById("productosPollo");
 const productosPollo = ["Alita de Pollo Picosa Bachoco - $106.80",
-"Alitas de Pollo Naturales - 87.80",
-"Alitas de Pollo Picosas - 125.80"];
+"Alitas de Pollo Naturales - $87.80",
+"Alitas de Pollo Picosas - $125.80"];
 
 toggleSubMenu(tituloPollo, subMenuPollo, listaProductosPollo);
 agregarProductosALista(productosPollo, "productosPollo");
@@ -471,7 +471,7 @@ agregarProductosALista(productosPollo, "productosPollo");
 // Pechugas de Pollo
 const subMenuPechugasPollo = document.getElementById("PechugasPollo");
 const listaProductosPechugasPollo = document.getElementById("productosPechugasPollo");
-const productosPechugasPollo = ["Filete de Pechuga Empanizado - 167.80",
+const productosPechugasPollo = ["Filete de Pechuga Empanizado - $167.80",
 "Pechuga Adobada - $111.90",
 "Pechuga de Pollo - $86.80",
 "Pechuga de Pollo Bachoco - $85.00",
@@ -488,7 +488,7 @@ agregarProductosALista(productosPechugasPollo, "productosPechugasPollo");
 const subMenuMilanesasPollo = document.getElementById("MilanesasPollo");
 const listaProductosMilanesasPollo = document.getElementById("productosMilanesasPollo");
 const productosMilanesasPollo = ["Milanesa de Pollo - $179.80", 
-" Milanesa de Pechuga Empenizada - 141.80"];
+" Milanesa de Pechuga Empenizada - $141.80"];
 
 toggleSubMenu(tituloPollo, subMenuMilanesasPollo, listaProductosMilanesasPollo);
 agregarProductosALista(productosMilanesasPollo, "productosMilanesasPollo");
@@ -533,10 +533,10 @@ const productosOtrosPollo = ["Chicken Nuggets - $47.50",
 "Nugget de Pollo Bachoco kg - $74.80",
 "Nugget Dedos de Pollo - $84.80",
 "Nuggets de pollo - $59.90",
-"Pavo Entero - 88.80",
+"Pavo Entero - $88.80",
 "Pollo Empanizado Frito - $45.90",
-"Pollo Entero - 55.90",
-"Pollo Entero Bachoco - 65.80"];
+"Pollo Entero - $55.90",
+"Pollo Entero Bachoco - $65.80"];
 
 toggleSubMenu(tituloPollo, subMenuOtrosPollo, listaProductosOtrosPollo);
 agregarProductosALista(productosOtrosPollo, "productosOtrosPollo");
@@ -675,7 +675,7 @@ agregarProductosALista(productosChihuahua, "productosChihuahua");
 const subMenuCotija = document.getElementById("Cotija");
 const listaProductosCotija = document.getElementById("productosCotija");
 const productosCotija = ["Queso Cotija - $139.80", "Queso Cotija Excelsior - $182.80",
-"Queso Cotija Rayado 139.80"];
+"Queso Cotija Rayado - $139.80"];
 
 toggleSubMenu(tituloQuesos, subMenuCotija, listaProductosCotija);
 agregarProductosALista(productosCotija, "productosCotija");
